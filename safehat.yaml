@@ -1,0 +1,7 @@
+train: E:\ultralytics-main\css-data\train\images\
+val: E:\ultralytics-main\css-data\valid\images\
+test: E:\ultralytics-main\css-data\test\images\
+
+nc: 2
+
+names: ['No_SafetyHat', 'SafetyHat']
