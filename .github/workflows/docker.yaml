@@ -134,7 +134,7 @@ jobs:
 
       - name: Build Image
         if: github.event_name == 'push' || github.event.inputs[matrix.dockerfile] == 'true'
-        uses: nick-invision/retry@v3
+        uses: nick-invision/retry@v4
         with:
           timeout_minutes: 120
           retry_wait_seconds: 60
